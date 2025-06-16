@@ -1,3 +1,5 @@
 name = "code-review-mastra-worker"
 main = "src/index.ts"
 compatibility_date = "2024-06-01"
+[build]
+command = "npm run build"
