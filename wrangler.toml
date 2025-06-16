@@ -1,5 +1,6 @@
 name = "code-review-mastra-worker"
-main = "src/index.ts"
+main = "src/mastra/index.ts"
 compatibility_date = "2024-06-01"
+compatibility_flags = ["nodejs_compat"]  # 关键配置
 [build]
 command = "npm run build"
